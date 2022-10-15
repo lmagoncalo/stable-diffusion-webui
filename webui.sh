@@ -14,7 +14,7 @@ fi
 # Install directory without trailing slash
 if [[ -z "${install_dir}" ]]
 then
-    install_dir="/home/$(whoami)/Documents/lgoncalo"
+    install_dir="/media/storage/lgoncalo"
 fi
 
 # Name of the subdirectory (defaults to stable-diffusion-webui)
